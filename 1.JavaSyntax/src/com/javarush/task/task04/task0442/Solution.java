@@ -13,7 +13,7 @@ public class Solution {
     public static void main(String[] args) throws Exception {
         //напишите тут ваш код
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        ArrayList<Integer> arr = new ArrayList<Integer>();
+        List arr = new ArrayList<Integer>();
 
         int a = 0;
         for (; true; )
@@ -25,7 +25,7 @@ public class Solution {
         }
 
         for (int i = 0; i < arr.size(); i++) {
-            a += arr.get(i);
+            a += (Integer) arr.get(i);
         }
         System.out.println(a - 1);
     }
