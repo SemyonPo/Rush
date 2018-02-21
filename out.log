@@ -1174,3 +1174,561 @@
 2018-02-13 19:48:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
 2018-02-13 19:49:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
 2018-02-13 19:50:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 19:51:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
+2018-02-13 19:52:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 19:53:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 19:54:30 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 19:55:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 19:56:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
+2018-02-13 19:57:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 19:58:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-13 19:59:29 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 502
+2018-02-13 23:29:03 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-13 23:29:07 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 01:17:36 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-14 01:17:37 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 01:17:37 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 01:41:56 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-14 02:40:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 03:20:14 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-14 03:20:14 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 03:49:48 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-14 03:49:50 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 05:31:46 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-14 05:31:47 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 05:31:47 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 05:31:48 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 05:51:38 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-14 06:01:17 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 07:24:42 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-14 07:24:43 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 200
+2018-02-14 08:00:47 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-18 15:04:00 ERROR ApacheHttpClient.processExceptionSendEvent(103) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-18 15:04:33 INFO  ApacheHttpClient.sendEvent(450) - responseCode = 400
+2018-02-18 15:04:42 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-02-18 15:04:42 INFO  ApacheHttpClient.getTask(405) - responseCode = 200
+2018-02-20 19:28:43 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-20 19:28:43 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-20 19:28:43 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-20 19:28:43 INFO  ApacheHttpClient.testConnection(178) - responseCode = 502
+2018-02-20 19:28:43 INFO  ApacheHttpClient.testConnection(185) - result = false
+2018-02-20 19:28:43 ERROR HttpsURLConnectionClient.<init>(74) - Ошибка получения логина прокси из HttpConfigurable.
+2018-02-20 19:28:44 INFO  HttpsURLConnectionClient.login(180) - responseCode = 502
+2018-02-20 19:28:44 WARN  HttpsURLConnectionClient.login(203) - Ошибка логина, 
+2018-02-20 19:28:53 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 19:28:53 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl4(FileEditorManagerImpl.java:811)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$UIBuilder.processFiles(EditorsSplitters.java:860)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$UIBuilder.processFiles(EditorsSplitters.java:825)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$ConfigTreeReader.process(EditorsSplitters.java:816)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.openFiles(EditorsSplitters.java:237)
+	at com.intellij.openapi.fileEditor.impl.OpenFilesActivity.runActivity(OpenFilesActivity.java:35)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runAndMeasure(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.logActivityDuration(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.lambda$runPostStartupActivitiesFromExtensions$1(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivity(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.lambda$openProject$8(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.loadProjectUnderProgress(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$null$10(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-20 19:28:53 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 19:28:58 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 19:28:58 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.dumbModeFinished(FileEditorManagerImpl.java:201)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.access$300(FileEditorManagerImpl.java:109)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$2.lambda$exitDumbMode$0(FileEditorManagerImpl.java:170)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-20 19:28:58 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 19:28:59 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 19:29:00 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.dumbModeFinished(FileEditorManagerImpl.java:201)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.access$300(FileEditorManagerImpl.java:109)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$2.lambda$exitDumbMode$0(FileEditorManagerImpl.java:170)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-20 19:29:00 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 19:29:00 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 19:29:01 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.dumbModeFinished(FileEditorManagerImpl.java:201)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.access$300(FileEditorManagerImpl.java:109)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$2.lambda$exitDumbMode$0(FileEditorManagerImpl.java:170)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-20 19:29:01 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 19:29:04 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 19:29:05 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.dumbModeFinished(FileEditorManagerImpl.java:201)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.access$300(FileEditorManagerImpl.java:109)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$2.lambda$exitDumbMode$0(FileEditorManagerImpl.java:170)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-20 19:29:05 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 20:02:14 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-02-20 20:02:27 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-20 20:02:27 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-20 20:02:28 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-20 20:02:28 INFO  ApacheHttpClient.testConnection(178) - responseCode = 502
+2018-02-20 20:02:28 INFO  ApacheHttpClient.testConnection(185) - result = false
+2018-02-20 20:02:28 ERROR HttpsURLConnectionClient.<init>(74) - Ошибка получения логина прокси из HttpConfigurable.
+2018-02-20 20:02:29 INFO  HttpsURLConnectionClient.login(180) - responseCode = 502
+2018-02-20 20:02:29 WARN  HttpsURLConnectionClient.login(203) - Ошибка логина, 
+2018-02-20 20:02:39 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 20:02:39 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.openFileImpl4(FileEditorManagerImpl.java:811)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$UIBuilder.processFiles(EditorsSplitters.java:860)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$UIBuilder.processFiles(EditorsSplitters.java:825)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters$ConfigTreeReader.process(EditorsSplitters.java:816)
+	at com.intellij.openapi.fileEditor.impl.EditorsSplitters.openFiles(EditorsSplitters.java:237)
+	at com.intellij.openapi.fileEditor.impl.OpenFilesActivity.runActivity(OpenFilesActivity.java:35)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runAndMeasure(StartupManagerImpl.java:176)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.logActivityDuration(StartupManagerImpl.java:162)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.lambda$runPostStartupActivitiesFromExtensions$1(StartupManagerImpl.java:150)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runActivity(StartupManagerImpl.java:367)
+	at com.intellij.ide.startup.impl.StartupManagerImpl.runPostStartupActivitiesFromExtensions(StartupManagerImpl.java:152)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.lambda$openProject$8(ProjectManagerImpl.java:411)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.loadProjectUnderProgress(ProjectManagerImpl.java:448)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl.openProject(ProjectManagerImpl.java:431)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:508)
+	at com.intellij.openapi.project.impl.ProjectManagerImpl$2.compute(ProjectManagerImpl.java:499)
+	at com.intellij.openapi.progress.Task$WithResult.run(Task.java:326)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:713)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$5.run(CoreProgressManager.java:397)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:157)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:543)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:488)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:94)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:144)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$null$10(ApplicationImpl.java:575)
+	at com.intellij.openapi.application.impl.ApplicationImpl$1.run(ApplicationImpl.java:315)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-02-20 20:02:39 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 20:02:43 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 20:02:44 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.dumbModeFinished(FileEditorManagerImpl.java:201)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.access$300(FileEditorManagerImpl.java:109)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$2.lambda$exitDumbMode$0(FileEditorManagerImpl.java:170)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-20 20:02:44 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 20:02:45 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 20:02:45 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.dumbModeFinished(FileEditorManagerImpl.java:201)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.access$300(FileEditorManagerImpl.java:109)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$2.lambda$exitDumbMode$0(FileEditorManagerImpl.java:170)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-20 20:02:45 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 20:02:46 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 20:02:46 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.dumbModeFinished(FileEditorManagerImpl.java:201)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.access$300(FileEditorManagerImpl.java:109)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$2.lambda$exitDumbMode$0(FileEditorManagerImpl.java:170)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-20 20:02:46 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 20:02:50 INFO  HttpsURLConnectionClient.testConnection(125) - resultHttp = true
+2018-02-20 20:02:51 ERROR HttpsURLConnectionClient.testConnection(140) - Ошибка проверки соединения с сервером по HTTPS
+java.io.IOException: Server returned HTTP response code: 502 for URL: https://javarush.ru
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1876)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getInputStream(HttpsURLConnectionImpl.java:254)
+	at com.javarush.plugin.client.HttpsURLConnectionClient.testConnection(HttpsURLConnectionClient.java:135)
+	at com.javarush.plugin.TestEditorProvider.accept(TestEditorProvider.java:45)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.lambda$getProviders$0(FileEditorProviderManagerImpl.java:89)
+	at com.intellij.openapi.application.ReadAction.compute(ReadAction.java:47)
+	at com.intellij.openapi.fileEditor.impl.FileEditorProviderManagerImpl.getProviders(FileEditorProviderManagerImpl.java:85)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.dumbModeFinished(FileEditorManagerImpl.java:201)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl.access$300(FileEditorManagerImpl.java:109)
+	at com.intellij.openapi.fileEditor.impl.FileEditorManagerImpl$2.lambda$exitDumbMode$0(FileEditorManagerImpl.java:170)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:315)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.runNextEvent(LaterInvocator.java:424)
+	at com.intellij.openapi.application.impl.LaterInvocator$FlushQueue.run(LaterInvocator.java:407)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:822)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:650)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:366)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-02-20 20:02:51 INFO  HttpsURLConnectionClient.testConnection(147) - resultHttps = false
+2018-02-20 20:03:26 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-02-20 21:38:56 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-20 21:38:56 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-20 21:38:56 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-20 21:38:57 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-20 21:38:57 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-20 21:38:58 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-20 21:38:58 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-20 21:38:58 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-20 21:38:58 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-20 21:38:58 INFO  ApacheHttpClient.login(244) - JSESSIONID=E40FF8FC832FCC4D1BA5A23A210BA575
+2018-02-20 21:38:58 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-20 21:38:58 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-20 21:38:58 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-20 21:38:58 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-20 21:39:25 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-02-21 18:19:10 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-21 18:19:10 INFO  ApacheHttpClient.createAsyncHttpClient(125) - Выбрано 1 прокси.
+2018-02-21 18:19:10 INFO  ApacheHttpClient.<init>(85) - ApacheHttpClient проинстанциирован успешно.
+2018-02-21 18:19:11 INFO  ApacheHttpClient.testConnection(178) - responseCode = 200
+2018-02-21 18:19:11 INFO  ApacheHttpClient.testConnection(185) - result = true
+2018-02-21 18:19:11 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-21 18:19:11 INFO  ApacheHttpClient.login(209) - Ожидание ответа сервера.
+2018-02-21 18:19:11 INFO  ApacheHttpClient.login(213) - responseCode = 200
+2018-02-21 18:19:11 INFO  ApacheHttpClient.login(244) - JSESSIONID=F93DF8C502E940E7ABD67850121540F2
+2018-02-21 18:19:11 INFO  ApacheHttpClient.refreshUserInfo(272) - responseCode = 200
+2018-02-21 18:19:11 INFO  ApacheHttpClient.refreshUserInfo(278) - Информация о пользователе получена.
+2018-02-21 18:19:11 INFO  ApacheHttpClient.startGA(32) - GAService запущен.
+2018-02-21 18:19:11 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-21 18:19:25 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-02-21 18:19:37 INFO  ApacheHttpClient.getWebResourceAsStream(420) - responseCode = 200
+2018-02-21 18:19:42 INFO  JavaRushTasksProjectComponent.projectClosing(157) - ---------- Project JavaRushTasks closed ----------
+
+2018-02-21 18:19:54 INFO  JavaRushTasksProjectComponent.projectOpened(68) - ---------- Project JavaRushTasks opened ----------
+
+2018-02-21 18:19:54 INFO  ApacheHttpClient.createAsyncHttpClient(126) - Выбрано 1 прокси.
+2018-02-21 18:19:54 INFO  ApacheHttpClient.<init>(87) - ApacheHttpClient проинстанциирован успешно.
+2018-02-21 18:19:55 INFO  ApacheHttpClient.testConnection(184) - responseCode = 200
+2018-02-21 18:19:55 INFO  ApacheHttpClient.testConnection(192) - result = true
+2018-02-21 18:19:55 INFO  ApacheHttpClient.login(216) - Ожидание ответа сервера.
+2018-02-21 18:19:55 INFO  ApacheHttpClient.login(216) - Ожидание ответа сервера.
+2018-02-21 18:19:55 INFO  ApacheHttpClient.login(220) - responseCode = 200
+2018-02-21 18:19:55 INFO  ApacheHttpClient.login(251) - JSESSIONID=8792C8DAC44A9332A6C42A1F1A5F75B8
+2018-02-21 18:19:55 INFO  ApacheHttpClient.refreshUserInfo(279) - responseCode = 200
+2018-02-21 18:19:56 INFO  ApacheHttpClient.refreshUserInfo(285) - Информация о пользователе получена.
+2018-02-21 18:19:56 INFO  ApacheHttpClient.startGA(31) - GAService запущен.
+2018-02-21 18:19:56 INFO  AbstractRestApiClient.startService(70) - EventsService запущен.
+2018-02-21 18:20:05 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-21 18:20:05 INFO  ApacheHttpClient.getFilteredTasks(314) - responseCode = 200
+2018-02-21 18:20:09 INFO  ApacheHttpClient.getFilteredTasks(314) - responseCode = 200
+2018-02-21 18:20:14 INFO  ApacheHttpClient.getTaskTemplateInfo(331) - responseCode = 200
+2018-02-21 18:20:15 INFO  ApacheHttpClient.testConnection(184) - responseCode = 200
+2018-02-21 18:20:15 INFO  ApacheHttpClient.testConnection(192) - result = true
+2018-02-21 18:20:15 INFO  ApacheHttpClient.testConnection(184) - responseCode = 200
+2018-02-21 18:20:15 INFO  ApacheHttpClient.testConnection(192) - result = true
+2018-02-21 18:20:15 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-21 18:20:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:21:02 INFO  ApacheHttpClient.testConnection(184) - responseCode = 200
+2018-02-21 18:21:02 INFO  ApacheHttpClient.testConnection(192) - result = true
+2018-02-21 18:21:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:22:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:23:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:24:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:25:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:26:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:27:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:28:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:28:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:29:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:29:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:30:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:31:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:32:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:32:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:33:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:33:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:34:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:34:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:35:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:35:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:36:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:36:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:37:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:37:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:38:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:38:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:39:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:39:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:40:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:40:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:41:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:41:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:42:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:42:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:43:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:43:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:44:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:44:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:45:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:45:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:46:06 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-21 18:46:07 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-21 18:46:07 INFO  ApacheHttpClient.getTask(412) - responseCode = 200
+2018-02-21 18:46:09 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-02-21 18:46:09 INFO  ApacheHttpClient.getTask(412) - responseCode = 200
+2018-02-21 18:46:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:47:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:48:58 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:49:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:50:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:51:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:52:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:53:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:54:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:55:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:56:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:57:33 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-21 18:57:33 INFO  ApacheHttpClient.getFilteredTasks(314) - responseCode = 200
+2018-02-21 18:57:35 INFO  ApacheHttpClient.getTaskTemplateInfo(331) - responseCode = 200
+2018-02-21 18:57:40 INFO  ApacheHttpClient.testConnection(184) - responseCode = 200
+2018-02-21 18:57:40 INFO  ApacheHttpClient.testConnection(192) - result = true
+2018-02-21 18:57:41 INFO  ApacheHttpClient.testConnection(184) - responseCode = 200
+2018-02-21 18:57:41 INFO  ApacheHttpClient.testConnection(192) - result = true
+2018-02-21 18:57:41 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-21 18:57:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:58:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 18:59:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 19:00:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 19:01:56 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-21 19:01:57 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-21 19:01:59 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-21 19:01:59 INFO  ApacheHttpClient.getTask(412) - responseCode = 200
+2018-02-21 19:02:01 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-02-21 19:02:01 INFO  ApacheHttpClient.getTask(412) - responseCode = 200

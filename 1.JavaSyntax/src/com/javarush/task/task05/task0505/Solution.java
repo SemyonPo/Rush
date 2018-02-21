@@ -7,6 +7,13 @@ package com.javarush.task.task05.task0505;
 public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
+        Cat cat1 = new Cat("Tom", 3, 3, 3);
+        Cat cat2 = new Cat("Bob", 4, 4, 4);
+        Cat cat3 = new Cat("Mur", 5, 7, 6);
+
+        System.out.println(cat1.fight(cat2));
+        System.out.println(cat1.fight(cat3));
+        System.out.println(cat3.fight(cat2));
     }
 
     public static class Cat {
