@@ -2212,3 +2212,171 @@ java.io.IOException: Server returned HTTP response code: 502 for URL: https://ja
 2018-02-22 23:08:47 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
 2018-02-22 23:09:47 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
 2018-02-22 23:10:47 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-22 23:11:38 INFO  ApacheHttpClient.testConnection(184) - responseCode = 200
+2018-02-22 23:11:38 INFO  ApacheHttpClient.testConnection(192) - result = true
+2018-02-22 23:11:39 INFO  ApacheHttpClient.testConnection(184) - responseCode = 200
+2018-02-22 23:11:39 INFO  ApacheHttpClient.testConnection(192) - result = true
+2018-02-22 23:11:39 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-22 23:11:47 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-22 23:12:47 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-22 23:13:47 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 00:12:35 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 00:12:55 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 00:58:55 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 01:14:19 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 01:45:21 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 02:00:38 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 02:42:54 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 02:58:15 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 03:29:12 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 03:44:36 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 04:15:44 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 04:51:00 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 05:32:14 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 06:37:12 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 07:08:08 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 07:23:33 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-23 18:09:26 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-23 20:53:52 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-25 20:04:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:05:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:06:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:07:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:08:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:09:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:10:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:11:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:12:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:13:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:14:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:15:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:16:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:17:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:18:57 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:19:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:20:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:21:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:22:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:23:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:24:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:25:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:26:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:27:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:28:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:29:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:30:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:31:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:32:55 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:33:55 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:34:55 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:35:55 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:36:55 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:37:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:38:45 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-25 20:59:51 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-25 23:39:58 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 01:05:36 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-26 01:56:19 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 02:53:44 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-26 03:50:13 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 08:41:04 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-26 18:17:13 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:18:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:19:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:20:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:21:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:22:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:23:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:24:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:25:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:26:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:27:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:28:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:29:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:30:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:31:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:32:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:33:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:34:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:35:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:36:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:37:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:38:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:39:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:40:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:41:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:42:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:43:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:44:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:45:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:46:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:47:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:48:19 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:49:19 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:50:19 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:51:19 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 18:52:09 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 19:51:08 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-26 20:06:31 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-26 23:52:58 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 00:08:19 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 00:39:17 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 00:54:37 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 01:25:40 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 01:41:04 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 02:11:57 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 02:12:26 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 02:58:17 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 03:13:40 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 04:05:45 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 04:21:04 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 04:52:06 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 05:07:25 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 05:53:51 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 05:53:52 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 06:24:36 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 06:40:08 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:48:54 ERROR ApacheHttpClient.processExceptionSendEvent(102) - (super) Ошибка во время отправки ивента на сервер.
+2018-02-27 19:48:55 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:49:24 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:50:24 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:51:24 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:52:24 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:53:24 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:54:34 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:55:24 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:56:34 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:57:34 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:58:24 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 19:59:34 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:00:34 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:01:34 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:02:32 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:03:32 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:04:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:05:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:06:33 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:07:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:08:23 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:09:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:10:33 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:11:32 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:12:24 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:13:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:14:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:14:27 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-27 20:14:28 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-27 20:14:28 INFO  ApacheHttpClient.getTask(412) - responseCode = 200
+2018-02-27 20:14:29 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-02-27 20:15:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:16:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:17:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:18:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:19:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:19:46 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-27 20:19:47 INFO  ApacheHttpClient.getWebResourceAsStream(427) - responseCode = 200
+2018-02-27 20:19:47 INFO  ApacheHttpClient.getTask(412) - responseCode = 200
+2018-02-27 20:19:48 INFO  ApacheHttpClient.completed(27) - responseCode = 200
+2018-02-27 20:19:49 INFO  ApacheHttpClient.getTask(412) - responseCode = 200
+2018-02-27 20:20:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
+2018-02-27 20:21:22 INFO  ApacheHttpClient.sendEvent(457) - responseCode = 200
