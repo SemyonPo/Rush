@@ -7,13 +7,13 @@ package com.javarush.task.task06.task0603;
 public class Solution {
     public static void main(String[] args) {
         //напишите тут ваш код
-        Cat[] cat = new Cat[50000];
-        for (int i=0; i<50000; i++){
+        Cat[] cat = new Cat[50000000];
+        for (int i=0; i<50000000; i++){
          cat[i] = new Cat();
         }
 
-        Dog[] dog = new Dog[50000];
-        for(int i=0; i<50000; i++){
+        Dog[] dog = new Dog[5000000];
+        for(int i=0; i<5000000; i++){
             dog[i] = new Dog();
         }
     }
