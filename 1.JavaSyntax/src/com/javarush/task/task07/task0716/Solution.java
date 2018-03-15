@@ -15,7 +15,8 @@ public class Solution {
         ArrayList<String> list = new ArrayList<String>();
         list.add("роза"); //0
         list.add("мера");
-        list.add("лоза"); //1
+        list.add("лоза");
+        list.add("лоба");
         list.add("лира"); //2
         list = fix(list);
 
@@ -33,8 +34,7 @@ public class Solution {
         }
         for (int i = 0; i < list.size(); i++) {
             if (list.get(i).contains("л") && !list.get(i).contains("р")){
-                list.add(list.get(i));
-                break;
+                list.add(i,list.get(i++));
             }
         }
         return list;
